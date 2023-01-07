@@ -13,7 +13,7 @@ h2{
 }
 .flexible{
     display: flex;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -45,10 +45,21 @@ h2{
     background-position: left;
 }
 .experience-item{
-    width: 40%;
+    width: 60%;
     margin-left: 5%;
     margin-right: 5%;
-    padding-left: 10%;
+    padding-left: 2%;
     border-radius: 10px;
-    box-shadow: 10px 10px 40px gray;
+    box-shadow: 10px 10px 40px 20px gray;
+}     
+#web{
+    border-left: 9px solid;
+    border-image: linear-gradient(yellow, red);
+    border-image-slice: 1;
 }
+#fullwab{
+    border-left: 9px solid;
+    border-image: linear-gradient(tomato, cyan);
+    border-image-slice: 1;
+}
+footer p{text-align: center;}
